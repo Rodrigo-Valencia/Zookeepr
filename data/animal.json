@@ -99,15 +99,6 @@
       "personalityTraits": [
         "hungry"
       ]
-    },
-    {
-      "name": "Pepper",
-      "species": "Dog",
-      "diet": "carnivore",
-      "personalityTraits": [
-        "anxious"
-      ],
-      "id": "10"
     }
   ]
 }
