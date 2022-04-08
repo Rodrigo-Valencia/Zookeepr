@@ -23,7 +23,6 @@ router.post('/animals', (req, res) => {
     // set id based on what the next index of the array will be
     req.body.id = animals.length.toString();
 
-    // if any data in req.body is incorrect, send 404 error back
     if (!validateAnimal(req.body)) {
         res.status(404).send('The animal if not properly formatted.');
     } else {
